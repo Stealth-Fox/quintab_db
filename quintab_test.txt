@@ -1,0 +1,26 @@
+===Database quintab_test
+
+== Struttura della tabella Anagrafica
+
+|------
+|Colonna|Tipo|Null|Predefinito
+|------
+|//**Matricola**//|int(11)|No|
+|Nome|varchar(45)|No|
+|Cognome|varchar(45)|No|
+|Indirizzo|varchar(45)|No|
+== Dump dei dati per la tabella Anagrafica
+
+|1|Alessio|Cecchi|Via Modigliani 31
+== Struttura della tabella Veicolo
+
+|------
+|Colonna|Tipo|Null|Predefinito
+|------
+|//**IdVeicolo**//|int(11)|No|
+|Marca|varchar(45)|No|
+|Modello|varchar(45)|No|
+|Matricola|int(11)|No|
+== Dump dei dati per la tabella Veicolo
+
+|1|Ford|Fiesta|1
